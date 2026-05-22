@@ -1,0 +1,28 @@
+# Tested environment for MQ-Auditor release scripts.
+torch==2.0.0
+torchvision==0.15.1
+torchaudio==2.0.1
+
+transformers==4.37.2
+tokenizers==0.15.2
+huggingface-hub==0.36.2
+peft==0.12.0
+accelerate==0.33.0
+deepspeed==0.12.6
+safetensors==0.4.3
+sentencepiece==0.2.0
+
+wandb==0.26.1
+numpy==1.26.4
+pandas==2.2.2
+opencv-python==4.10.0.84
+Pillow==10.4.0
+librosa==0.10.2.post1
+decord==0.6.0
+einops==0.8.0
+tqdm==4.66.4
+jsonlines==4.0.0
+ipdb==0.13.13
+
+# Optional: only needed if using quantized loading instead of the default --bits 32 scripts.
+# bitsandbytes
